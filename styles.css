@@ -6,6 +6,11 @@
     font-family: "Roboto", sans-serif;
 }
 
+a {
+    margin: 0;
+    padding: 0;
+}
+
 marquee {
     letter-spacing: 0.5em;
     font-weight: 500;
@@ -25,6 +30,13 @@ header {
     justify-content: center;
     align-items: center;
     max-width: 100%;
+}
+
+#character {
+    display: flex;
+    max-width: 100%;
+    justify-content: center;
+    margin: 0;
 }
 
 h1 {
@@ -65,4 +77,33 @@ header img {
     transition: 0.2s;
     border-radius: 10px;
     filter: brightness(1.4);
+}
+
+#container img:active {
+    filter: brightness(0.5);
+}
+
+main {
+    margin: 10px 50px;
+    text-align: center;
+    margin: 1% 20%;
+}
+
+h3 {
+    color: #ff0000;
+    text-shadow: 0px 1px 2px grey;
+}
+
+#description {
+    color: #ff0000;
+    font-style: italic;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+footer {
+    text-align: center;
+    padding: 0;
+    font-size: 12px;
+
 }
